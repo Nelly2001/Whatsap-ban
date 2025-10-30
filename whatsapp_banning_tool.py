@@ -1,4 +1,3 @@
-
 ```python
 import os
 import time
@@ -47,7 +46,7 @@ This tool is made by the one and only, bhadboy NELLY
             else:
                 print("Failed to ban the number. The target might be smarter than you. Press 'x' to go back.")
         elif choice == '2':
-            number = input("Input the fucker's             number = input("Input the fucker's number (e.g., 2349058727403): ")
+            number = input("Input the fucker's number = input("Input the fucker's number (e.g., 2349058727403): ")
             if not number.isdigit() or len(number) != 11:
                 print("Invalid number. Fuck off and check the number.")
                 continue
